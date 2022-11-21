@@ -11,7 +11,7 @@ stk_ticker = 'AAPL'
 data_resolution = 'W' # weekly
 timestamp_from = 1667347107 
 timestamp_to = 1668556707
-API_Key = 'cdqmt0qad3ifho9o8am0cdqmt0qad3ifho9o8amg'# enter the api_key here
+API_Key = ''# enter the api_key here
 Address_template = 'https://finnhub.io/api/v1/stock/candle?symbol={}&resolution={}&from={}&to={}&token={}'
 
 API_address = Address_template.format(stk_ticker, data_resolution, timestamp_from, timestamp_to, API_Key)
